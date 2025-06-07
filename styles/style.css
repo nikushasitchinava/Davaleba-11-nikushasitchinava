@@ -33,10 +33,25 @@ body {
 .cards {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 53px;
 }
 
 
 .cards > img {
-    width: 372px;
+    width: 373px;
+    height: 373px;
+}
+
+
+.cardtittle {
+    width: 550px;
+}
+
+
+
+footer {
+    margin-top: 39px;
+    height: 372px;
+    background-color: #000000;
 }
