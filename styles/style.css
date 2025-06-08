@@ -11,16 +11,60 @@ body {
 }
 
 
-.bodypart {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 
 .tittlediv {
     width: 371px;
+    margin-left: 35px;
 }
+
+
+
+form {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    justify-content: center;
+}
+
+
+textarea {
+    width: 50%;
+    background-color: #F8F8F8;
+    border: #c0c0c0 solid 2px;
+    font-size: 14px;
+}
+
+
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+div > input {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 59px;
+    background-color: #F8F8F8;
+    border: #c0c0c0 solid 2px;
+    font-size: 14px;
+}
+
+
+button {
+    background-color: #5968F4;
+    height: 59px;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
 
 
 .smalltittle {
@@ -28,7 +72,6 @@ body {
     font-weight: 700;
     color: #5863E3;
 }
-
 
 .bigtittle {
     font-size: 47px;
