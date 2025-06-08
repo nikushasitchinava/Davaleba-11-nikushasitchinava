@@ -11,6 +11,13 @@ body {
 }
 
 
+.bodypart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .tittlediv {
     width: 371px;
 }
