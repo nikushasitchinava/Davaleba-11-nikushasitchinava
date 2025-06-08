@@ -51,7 +51,18 @@ div > input {
     background-color: #F8F8F8;
     border: #c0c0c0 solid 2px;
     font-size: 14px;
+    box-sizing: border-box;
 }
+
+
+form > input::placeholder {
+    color: #99999A;
+}
+
+div > input::placeholder {
+    color: #99999A;
+}
+
 
 
 button {
@@ -114,6 +125,7 @@ button {
 .cards > img {
     width: 373px;
     height: 373px;
+    margin-bottom: 10px;
 }
 
 
@@ -167,3 +179,21 @@ h3 {
     color: #99999A;
 }
 
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .smalltittle {
+    font-size: 10px;
+  }
+
+  .bigtittle {
+    font-size: 23px;
+  }
+
+  .cardtittle {
+    width: 398px;
+  }
+}
