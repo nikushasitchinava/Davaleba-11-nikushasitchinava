@@ -13,8 +13,9 @@ body {
 
 
 .tittlediv {
-    width: 371px;
     margin-left: 35px;
+    width: 378px;
+    margin-bottom: 20px;
 }
 
 
@@ -67,6 +68,27 @@ button {
 
 
 
+
+.circle {
+    width: 68px;
+    height: 68px;
+    background-color: #5968F4;
+    border-radius: 50px;
+}
+
+
+.far fa-clock {
+    font-size: 50px !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
 .smalltittle {
     font-size: 17px;
     font-weight: 700;
@@ -83,6 +105,7 @@ button {
 .cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 53px;
 }
@@ -96,6 +119,7 @@ button {
 
 .cardtittle {
     width: 550px;
+    margin-left: 35px;
 }
 
 
@@ -104,4 +128,42 @@ footer {
     margin-top: 39px;
     height: 372px;
     background-color: #000000;
+    padding-top: 63px;
+    padding-left: 143px;
+    box-sizing: border-box;
 }
+
+
+.icons {
+    width: 76px;
+    margin-top: 23px;
+    margin-left: -15px;
+}
+
+.icons2 {
+    width: 46px;
+}
+
+.icons3 {
+    margin-left: 15px;
+    width: 46px;
+    border-radius: 50px;
+}
+
+
+.one {
+    width: 295px;
+}
+
+
+.footerheader {
+    font-size: 26px;
+    color: white;
+}
+
+
+h3 {
+    font-size: 17px;
+    color: #99999A;
+}
+
