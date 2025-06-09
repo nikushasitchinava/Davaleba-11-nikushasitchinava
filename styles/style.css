@@ -10,13 +10,6 @@ body {
 }
 
 
-
-.flexdiv {
-    
-}
-
-
-
 .tittlediv {
     margin-left: 144px;
     width: 378px;
@@ -25,10 +18,19 @@ body {
 
 
 
+.flexdiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
 form {
     display: flex;
     gap: 10px;
     padding: 40px;
+    width: 80%;
     justify-content: center;
 }
 
@@ -47,7 +49,7 @@ textarea {
 form > div {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -112,6 +114,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 
@@ -134,11 +137,13 @@ button {
 .cheader {
     font-size: 20px;
     color: #4E4D54;
+    margin-bottom: 8px;
 }
 
 .cdesc {
     font-size: 15px;
     color: #99999A;
+    margin-bottom: 8px;
 }
 
 
@@ -238,6 +243,7 @@ footer {
     font-size: 17px;
     color: #5863E3;
     margin-bottom: 8px;
+    font-weight: 400;
 }
 
 
@@ -245,16 +251,43 @@ footer {
     font-size: 17px;
     color: #5863E3;
     margin-bottom: 8px;
+    font-weight: 400;
 }
 
 
-.four > h1 {
+
+.textdiva {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.textdiva > h1 {
+    font-weight: 400;
     font-size: 17px;
     color: #ffffff;
     margin-bottom: 8px;
+    display: inline;
 }
 
 
+
+
+
+#smallmail {
+    font-size: 15px !important;
+    color: #344188 !important;
+}
+
+#smallphone {
+    font-size: 15px !important;
+    color: #344188 !important;
+}
+
+#smallmap {
+    font-size: 15px !important;
+    color: #344188 !important;
+}
 
 
 
