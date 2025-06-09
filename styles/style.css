@@ -13,7 +13,7 @@ body {
 
 
 .tittlediv {
-    margin-left: 35px;
+    margin-left: 144px;
     width: 378px;
     margin-bottom: 20px;
 }
@@ -85,6 +85,11 @@ button {
 
 
 
+.burtebisdivi {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 .circle {
@@ -135,7 +140,7 @@ button {
 
 .cardtittle {
     width: 550px;
-    margin-left: 35px;
+    margin-left: 144px;
 }
 
 
@@ -216,6 +221,11 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+  
+  .tittlediv {
+    margin-left: 40px;
+  }
+  
   .smalltittle {
     font-size: 10px;
   }
@@ -226,6 +236,7 @@ footer {
 
   .cardtittle {
     width: 381px;
+    margin-left: 40px;
   }
 }
 
