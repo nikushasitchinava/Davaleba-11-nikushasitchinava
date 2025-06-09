@@ -152,6 +152,7 @@ footer {
     background-color: #000000;
     padding-top: 63px;
     box-sizing: border-box;
+    flex-direction: row;
     justify-content: space-around;
 }
 
