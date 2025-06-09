@@ -85,23 +85,6 @@ button {
 
 
 
-.burtebisdivi {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-.circle {
-    width: 68px;
-    height: 68px;
-    background-color: #5968F4;
-    border-radius: 50px;
-}
-
-
-
-
 
 
 
@@ -248,6 +231,7 @@ footer {
   footer {
     padding-left: 50px;
     flex-direction: column;
+    justify-content: center;
     height: 1100px;
   }
 
