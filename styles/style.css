@@ -10,6 +10,13 @@ body {
 }
 
 
+
+.flexdiv {
+    
+}
+
+
+
 .tittlediv {
     margin-left: 144px;
     width: 378px;
@@ -83,7 +90,6 @@ button {
 
 
 .flexed {
-    margin-left: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -93,8 +99,8 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 226px;
-    
+    flex-direction: column;
+    align-items: center;    
 }
 
 
@@ -110,6 +116,16 @@ button {
 
 
 #mail {
+    font-size: 34px !important;
+    color: #344188 !important;
+}
+
+#phone {
+    font-size: 34px !important;
+    color: #344188 !important;
+}
+
+#marker {
     font-size: 34px !important;
     color: #344188 !important;
 }
@@ -157,7 +173,7 @@ button {
 
 
 .cards > img {
-    width: 373px;
+    width: 413px;
     height: 373px;
     margin-bottom: 10px;
 }
@@ -253,16 +269,24 @@ footer {
   }
   
   .smalltittle {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .bigtittle {
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .cardtittle {
     width: 381px;
     margin-left: 40px;
+  }
+
+  .cheader {
+    display: none;
+  }
+
+  .cdesc {
+    display: none;
   }
 }
 
