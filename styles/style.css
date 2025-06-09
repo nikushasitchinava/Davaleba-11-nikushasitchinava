@@ -87,6 +87,15 @@ button {
 }
 
 
+button:hover {
+    background-color: #95a0ff;
+    height: 59px;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+
 
 
 
